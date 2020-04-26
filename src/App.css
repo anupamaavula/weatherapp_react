@@ -1,38 +1,70 @@
-.App {
+
+
+body,html {
+  
+  background-image: url('bg1.png');
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;	
+}
+
+
+ #zipcode{
+  height:40px;
+	font-size:20px;
+	font-weight:bold;
+}
+
+#btn{
+	height:40px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+.container{
+	text-align: center;
+	padding-top: 20px;
+	margin-top:auto;
+  color:rgb(255, 102, 0); 
+  font-size: 35px;
+  font-family: cursive;
+
+ }
+ #header{
   text-align: center;
-}
+	padding-top: 20px;
+	margin-top:auto;
+	color:blue;
+ }
+ #main{
+  text-align: center;
+	/* padding-top: 30px; */
+	/* margin-top:auto; */
+  color:red;
+  font-size: medium;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: aqua;
+  /* background-image: url('bg2.png');
+  background-repeat: no-repeat;
+  background-size: cover;	 */
+  margin: 50px auto;
+  width:30%;
+  height:30%;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+ }
+ #city{
+	font-size: 30px ;
+	font-weight: bold;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+p{
+  font-size:20px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-top: 10px;
+  margin: 20px;
+  content: none;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+ 
